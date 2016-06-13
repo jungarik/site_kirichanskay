@@ -1,0 +1,209 @@
+﻿html::-webkit-scrollbar {
+     /*width: 0 !important*/ 
+}
+html{ 
+    /*-ms-overflow-style: none; 
+    overflow: -moz-scrollbars-none;*/
+    overflow-x: hidden !important;
+    /*overflow:hidden !important;*/
+}
+body {
+    /*background-image: url(../Ph_shop/back.jpg);*/
+    font-family: "RalewayRegular", sans-serif;
+	font-size: 16px;
+    color: #999;
+    background-color: #fff;
+    width:100%;
+    height:100%;
+    margin:0px !important;
+  }
+.img-carousel-size{
+}
+.main-div{
+    background: rgba(0, 0, 0, 1);
+    /*background-color:#000;*/
+    margin:0px;
+    padding:0px;
+    position:absolute;
+    z-index:999;
+    width: 100% !important;
+    height:100% !important;
+    /*opacity:0.5;*/
+    /*overflow-x: hidden;*/
+    /*background-image: url(../Ph_shop/kirich.png);*/
+    top:0px;
+}
+
+#main-img{
+    /*position:absolute;
+    z-index:1;*/
+    /*top:0px;
+    padding:0px;*/
+    margin-top:35%;
+    margin-bottom:auto;
+    /*overflow-x: hidden;*/
+    /*height:320px;*/
+    /*transition: all 15s ease-out;*/
+    /*overflow: visible;*/
+}
+.img-for-brand{
+    top:75%; 
+    right: 0px;
+    position:absolute; 
+    z-index:2; 
+    /*width: 500px;*/
+    margin-left:auto;
+    margin-right:auto;
+     /*overflow-x: hidden;*/
+}
+.img-shadow{
+    background: url(../img/block_nu.jpg);
+    box-shadow: inset 0px 0px 8px rgba(0,0,0, 1);
+    -webkit-box-shadow: inset 0 0 8px rgba(0,0,0, 1);
+}
+#block-menu{
+    position:absolute;
+    z-index:-1;
+    top:0px;
+    padding:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.text-block{
+    /*top:94px;*/
+    position: relative;
+    float:left; 
+    /*background: rgba(255, 255, 255, 0.0);*/
+    /*border: 1px solid rgba(204, 204, 204, 0.3);*/
+    border-radius: 10px;
+    padding-top:5px;
+    padding: 20px;
+    margin:5px;
+    cursor:pointer;
+}
+
+.text-block:hover{
+    background: rgba(204, 204, 204, 0.3);
+    /*background-color: #fff;*/
+    /*border: 1px solid #ccc;*/
+    /*transform: rotate(180deg);*/
+     /*-webkit-transform: rotate(90deg);*/
+        transition: 0.6s;
+}
+.text-block p{
+    font-family: 'RalewayRegular', sans-serif;
+    /*color:#666;*/
+    color:#333;
+}
+.inside-block{
+
+}
+/*.inside-block:hover{
+    transition: transform 1s;
+    transform: rotateY(180deg);
+}*/
+#block-img{
+    /*margin: 20px !important;*/
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.fixed:nth-of-type(5){
+    position:absolute;
+    top:0px;
+    width:100%;
+    height:100%;
+}
+.absolute {
+
+}
+#first-block{
+
+}
+.indent{
+    padding: 0px;
+    margin:0px;
+}
+.btn-add{
+    position: inherit;
+    z-index: 999;
+    /*margin-left:40px !important;
+    margin-right:40px !importan*/
+    /*box-shadow: 2px 5px 7px rgba(0,0,0,0.3);*/
+    background-color:transparent !important;
+    /*margin-bottom: 70% !important;*/
+    margin-top:15% !important;
+    color:#FFF;
+    border: 2px solid #fff;
+    /*font-weight: bold;*/  
+} 
+.size{
+    /*position: static;*/
+    /*float:right;*/
+    height:100px;
+}
+#navbar-menu{
+    background-color:#fff;
+	height: 94px;
+	line-height: 94px;
+	/*position: fixed;*/
+	top: -100px;
+	width: 100%;
+	z-index: 100;
+}
+.navbar-size{
+        width: 30%;
+}
+.col-centered{
+    float: none !important;
+    margin: 0 auto!important;
+}
+
+.menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.menu li{
+	display: inline-block;
+	padding: 0 30px;
+}
+.menu li a{
+	color: #666;
+	text-transform: uppercase;
+	font-family: 'RalewayRegular', sans-serif;
+}
+.menu li a:hover,
+.menu li a:focus{
+	text-decoration: none;
+	color: #333;
+}
+
+.logo {
+    padding:2px;
+
+}
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: #333;
+    margin-top:0px;
+    margin-bottom:5px;
+    padding:0px;
+}
+.top_line {
+    height: 1px;
+    width: 100%;
+    background-color: #999;
+    margin-top:0px;
+    margin-bottom:5px;
+    padding:0px;
+}
+.menu_btn{
+	/*border: 1px solid #ff6699;
+	color: #ff6699;
+	background-color: #ff6699;
+	width: 30px;
+	height: 30px;*/
+}
+
