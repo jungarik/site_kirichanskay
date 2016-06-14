@@ -62,23 +62,23 @@ body {
     -webkit-box-shadow: inset 0 0 8px rgba(0,0,0, 1);
 }
 #block-menu{
-    position:absolute;
-    z-index:-1;
-    top:0px;
-    padding:10px;
-    margin-left:auto;
-    margin-right:auto;
+    /*position:absolute;*/
+    /*z-index:-1;*/
+    /*top:0px;*/
+    /*padding:10px;*/
+    /*margin-left:auto;*/
+    /*margin-right:auto;*/
 }
 .text-block{
     /*top:94px;*/
-    position: relative;
-    float:left; 
+    /*position: relative;*/
+    /*float:left;*/ 
     /*background: rgba(255, 255, 255, 0.0);*/
     /*border: 1px solid rgba(204, 204, 204, 0.3);*/
     border-radius: 10px;
-    padding-top:5px;
+    /*padding-top:5px;*/
     padding: 20px;
-    margin:5px;
+    /*margin:5px;*/
     cursor:pointer;
 }
 
@@ -143,13 +143,19 @@ body {
     height:100px;
 }
 #navbar-menu{
-    background-color:#fff;
-	height: 94px;
-	line-height: 94px;
-	/*position: fixed;*/
+    /*background: no-repeat;*/
+    
+    /*background-image: url(../img/Ph_shop/kirich_photo_1.png) !important;
+    background-position:center top;
+    background-repeat: no-repeat;*/
+    background-color:#fff !important;
+    border-bottom:solid 1px;
+	height: auto;
+	/*line-height: 94px;*/
+	position: fixed;
+    z-index:999;
 	top: -100px;
 	width: 100%;
-	z-index: 100;
 }
 .navbar-size{
         width: 30%;
@@ -161,20 +167,19 @@ body {
 
 .menu{
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+    line-height:;
+    text-align:center;
+    
+	/*margin-top: 30px;*/
+    /*margin-bottom: auto;*/
 }
-.menu li{
-	display: inline-block;
-	padding: 0 30px;
-}
-.menu li a{
+.menu a{
 	color: #666;
 	text-transform: uppercase;
 	font-family: 'RalewayRegular', sans-serif;
 }
-.menu li a:hover,
-.menu li a:focus{
+.menu a:hover,
+.menu a:focus{
 	text-decoration: none;
 	color: #333;
 }
@@ -194,9 +199,10 @@ body {
 .top_line {
     height: 1px;
     width: 100%;
+    top:100px;
     background-color: #999;
     margin-top:0px;
-    margin-bottom:5px;
+    margin-bottom:0px;
     padding:0px;
 }
 .menu_btn{
